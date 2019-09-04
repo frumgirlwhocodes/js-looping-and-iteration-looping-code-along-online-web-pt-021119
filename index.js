@@ -7,3 +7,10 @@ function writeCards(names, event) {
   return array;
   
 };
+
+function countdown(count) {
+  while (count >= 0) {
+    console.log(count);
+    count--;
+  }
+}
